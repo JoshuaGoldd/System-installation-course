@@ -11,3 +11,4 @@
 
 
 ![First screenshot showing system installation interface with setup wizard and configuration options](screenshot%201.png)
+![second image](./imagees/Screenshot%202.png)
