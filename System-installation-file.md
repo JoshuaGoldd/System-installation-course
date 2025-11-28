@@ -7,4 +7,4 @@
 - [Data for livelihood](http://www.tiktok.com)
 ## Add image to the file
 ![my image](screenshot%201.png)
-![my image2](./image/screenshot%202.png)
+![my image2](./images/screenshot%202.png)
