@@ -79,6 +79,8 @@ Git is a version control system for managing code and keeping track of file modi
 git --version
 ```
 
+- Git is up and running if verification is successful
+
 ![screenshot of official git installer downloader page](Images/image-7.png)
 ![The image indicates that the version and git is installed](Images/image-8.png)
 
@@ -87,7 +89,7 @@ git --version
 ___
 
 - To manually download Openssh, go to [https://github.com/PowerShell/Win32-OpenSSH/releases](https://github.com/PowerShell/Win32-OpenSSH/releases).
-- Carefully obtain the most recent Openssh ZIPen package compatible with your operating system.
+- Carefully obtain the most recent Openssh ZIP  package compatible with your operating system.
 - Once the OpenSSH-Win64.zip package file has been downloaded, right-click on it and extract it to C:\Program Files. OpenSSH
 - Launch the Admin PowerShell installation script:
 
@@ -110,7 +112,7 @@ Set-Service ssh-agent -StartupType Automatic
 Start-Service ssh-agent
 ```
 
-- Verify OpenSSH Installation,
+- To Verify OpenSSH Installation,run
 
 ```powershell
 
@@ -164,7 +166,7 @@ To accept defaults, hit Enter; select a passphrase or leave it empty.  The SSH p
 ssh-add $env:USERPROFILE\.ssh\id_ed25519
 ```
 
-- Next, use the following command to see the SSK key.
+- Next, use the following command to see the SSh key.
 
 ```powershell
 
@@ -206,7 +208,7 @@ ___
 
 - Navigate to the document folder in your window explorer.  Make a new folder called **workspace** inside the document folder.
 - Returning to your VS code now, Go to **File → Open Folder → Select it**
-- your folder is up for repository cloning
+- your folder is up for repository cloning and other github workflow
 
 ## **10. Clone a repository on GitHub (git clone)**
 
@@ -231,7 +233,7 @@ git clone git@github.com:JoshuaGoldd/System-Installation-Course.git
 
 ___
 
-- Run the command below when you are about to upload the job you have done local computer to github repository
+- Run the command below when you are about to upload the job you have done on your local computer to github repository
 
 ```powershell
 git add .
